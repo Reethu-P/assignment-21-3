@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int n, i;
+    float sum = 0.0;
+    
+    printf("Enter the value of n: ");
+    scanf("%d", &n);
+
+    // Evaluate the expression
+    for (i = 1; i <= n; i++) {
+        sum += 1.0/i;
+    }
+    
+    printf("The sum of the expression is: %.2f", sum);
+    
+    return 0;
+}
